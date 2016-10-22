@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+<!-- font-family: 'Montserrat', sans-serif; -->
 <style>
 	html, body {
 		height: 100%; 
@@ -14,14 +16,24 @@
 		background: url("assets/october_fog-wallpaper.jpg") no-repeat center fixed; 
 		background-size: cover;  
 		}
+	.place-name {
+		font-family: 'Montserrat', sans-serif;
+		color: white; 
+		font-size: 70px;
+		padding: 10px; 
+		}
 </style>
 <title>weather app</title>
 </head>
 <body>
-	<div class="container"> </div>
-	<nav> </nav>
+	<div class="container"> 
+	<!--<nav> </nav>-->
+	<section class="place-name">
+		<div><span class="city">Atlanta,</span> <span class="state">GA</span></div>
+	</section>
 	<section class="weather-now"> </section>
 		
 	<section class="weather-future"></section>
+	</div>
 </body>
-</html>
+</html> 
